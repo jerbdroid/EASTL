@@ -48,3 +48,11 @@ Testing/*
 .buckconfig.local
 BUCKAROO_DEPS
 .vscode/settings.json
+
+#Bazel
+**/bazel-out
+**/bazel-bin
+**/bazel-gravity
+**/external
+**/bazel-testlogs
+MODULE.bazel.lock

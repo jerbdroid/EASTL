@@ -1,0 +1,9 @@
+cc_library(
+    name = "eastl",
+    srcs = glob(["source/*.cpp"]),
+    hdrs = glob(["include/EASTL/**/*.h"]),
+    includes = ["include"],
+    strip_include_prefix = "include",
+    visibility = ["//visibility:public"],
+    deps = ["@eabase"],
+)

@@ -1,0 +1,6 @@
+module(
+    name = "eastl",
+    version = "3.21.23",
+)
+
+bazel_dep(name = "eabase", version = "3.21.23")
